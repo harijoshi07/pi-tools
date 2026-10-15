@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "enabled": true,
+  "preset": "default",
+  "lines": [
+    [
+      {
+        "id": "model-provider-mv930ogu-da6hbj",
+        "type": "model-provider",
+        "enabled": true,
+        "options": {
+          "raw": false,
+          "icon": "",
+          "fg": "cyan",
+          "bg": "default",
+          "bold": false
+        }
+      },
+      {
+        "id": "thinking-level-mv930ogu-0yebqt",
+        "type": "thinking-level",
+        "enabled": true,
+        "options": {
+          "raw": false,
+          "hideWhenEmpty": true,
+          "icon": "",
+          "text": "",
+          "fg": "magenta",
+          "bg": "default",
+          "bold": false
+        }
+      },
+      {
+        "id": "text-verbosity-mv930ogu-w2rgi3",
+        "type": "text-verbosity",
+        "enabled": true,
+        "options": {
+          "raw": false,
+          "hideWhenEmpty": true,
+          "icon": "",
+          "text": "",
+          "fg": "cyan",
+          "bg": "default",
+          "bold": false
+        }
+      },
+      {
+        "id": "context-bar-mv93l82q-amnyi7",
+        "type": "context-bar",
+        "enabled": true,
+        "options": {
+          "raw": false,
+          "hideWhenEmpty": false,
+          "icon": "",
+          "text": "",
+          "fg": "blue",
+          "bg": "default",
+          "bold": false,
+          "tokenFormatStyle": "compact",
+          "contextBarMode": "short",
+          "contextConditionalColors": false,
+          "contextWarningPercent": 70,
+          "contextDangerPercent": 90,
+          "warningFg": "yellow",
+          "warningBg": "default",
+          "dangerFg": "red",
+          "dangerBg": "default"
+        }
+      },
+      {
+        "id": "cost-mv930ogu-onx0ks",
+        "type": "cost",
+        "enabled": false,
+        "options": {
+          "raw": false,
+          "icon": "",
+          "fg": "green",
+          "bg": "default",
+          "bold": false,
+          "costFormatStyle": "compact",
+          "showSubscription": false
+        }
+      },
+      {
+        "id": "total-time-mv930ogu-o31mgg",
+        "type": "total-time",
+        "enabled": true,
+        "options": {
+          "raw": false,
+          "icon": "",
+          "fg": "yellow",
+          "bg": "default",
+          "bold": false
+        }
+      }
+    ],
+    [
+      {
+        "id": "git-branch-mv93gpgs-bpj0ps",
+        "type": "git-branch",
+        "enabled": true,
+        "options": {
+          "raw": false,
+          "hideWhenEmpty": false,
+          "icon": "",
+          "text": "",
+          "fg": "magenta",
+          "bg": "default",
+          "bold": false,
+          "gitBranchDisplayStyle": "default",
+          "surroundLeft": "",
+          "surroundRight": ""
+        }
+      },
+      {
+        "id": "git-diff-mv93gz9o-wfbajm",
+        "type": "git-diff",
+        "enabled": true,
+        "options": {
+          "raw": false,
+          "hideWhenEmpty": false,
+          "icon": "",
+          "text": "",
+          "fg": "yellow",
+          "bg": "default",
+          "bold": false,
+          "gitDiffMode": "plain"
+        }
+      }
+    ]
+  ],
+  "separator": "dot",
+  "separatorFg": "default",
+  "separatorBg": "default",
+  "iconMode": "nerd",
+  "minimalist": false,
+  "terminal": {
+    "widthMode": "full",
+    "colorLevel": "ansi16"
+  },
+  "extensionStatusRow": {
+    "hiddenKeys": [],
+    "knownKeys": []
+  }
+}

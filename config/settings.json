@@ -1,0 +1,20 @@
+{
+  "packages": [
+    "git:github.com/harijoshi07/pi-tools",
+    "npm:pi-cursor-sdk",
+    "npm:pi-antigravity",
+    "npm:pi-footer",
+    "npm:pi-observational-memory",
+    "npm:pi-web-access",
+    "npm:pi-subagent-manager",
+    "npm:pi-context-prune",
+    "git:github.com/championswimmer/pi-gh-footer",
+    "git:github.com/championswimmer/pi-checklist",
+    "git:github.com/championswimmer/pi-gauge",
+    "git:github.com/championswimmer/pi-context-usage",
+    "git:github.com/championswimmer/pi-cache-graph"
+  ],
+  "defaultProvider": "antigravity",
+  "defaultModel": "gemini-3.8-flash",
+  "defaultThinkingLevel": "high"
+}

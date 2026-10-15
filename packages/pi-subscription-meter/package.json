@@ -1,0 +1,60 @@
+{
+  "name": "pi-subscription-meter",
+  "version": "0.6.0",
+  "description": "Pi extension scaffolding for showing subscription and quota usage across AI providers.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/championswimmer/pi-subscription-meter.git"
+  },
+  "homepage": "https://github.com/championswimmer/pi-subscription-meter#readme",
+  "bugs": {
+    "url": "https://github.com/championswimmer/pi-subscription-meter/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "quotas",
+    "usage",
+    "subscriptions",
+    "anthropic",
+    "openai",
+    "openrouter",
+    "opencode",
+    "github-copilot",
+    "antigravity",
+    "cursor"
+  ],
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run typecheck && npm test"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./src/extensions/core/index.ts"
+    ]
+  },
+  "devDependencies": {
+    "@earendil-works/pi-ai": "^0.80.10",
+    "@earendil-works/pi-coding-agent": "^0.80.10",
+    "@earendil-works/pi-tui": "^0.80.10",
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
+  }
+}

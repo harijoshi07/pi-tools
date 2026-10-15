@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+auth.json
+antigravity-accounts.json
+*.local
