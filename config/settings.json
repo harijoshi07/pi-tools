@@ -1,6 +1,6 @@
 {
   "packages": [
-    "git:github.com/harijoshi07/pi-tools",
+    "git:git@github.com:harijoshi07/pi-tools.git",
     "npm:pi-cursor-sdk",
     "npm:pi-antigravity",
     "npm:pi-footer",
